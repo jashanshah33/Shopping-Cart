@@ -97,7 +97,7 @@ handleDecreaseQuantity = (product) => {
     })
 }
 handleDelete =(id) => {
-    const{products}=this.state;
+    // const{products}=this.state;
 
    const docRef = this.db.collection('products').doc(id);
 
